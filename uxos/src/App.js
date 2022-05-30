@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom"
 import React from 'react'
-import Footer from './components/Footer'
-import Info from './components/Info'
-import Contact from './components/Contact'
-import About from './components/About'
-import Feature from './components/Feature'
-import Header from './components/Header'
-import Home from "./Pages/Home"
+import Footer from './Components/Footer'
+import Info from './Components/Info'
+import AboutInfo from './Components/AboutInfo'
+import Header from './Components/Header'
+import Home from './Pages/Home'
+import Contact from "./Pages/Contact"
+import Features from "./Pages/Features"
+import NotFound from "./Pages/NotFound"
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Feature" element={<Feature />} />
+        <Route path="/About" element={<AboutInfo />} />
+        <Route path="/Features" element={<Features />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Info />
       <Footer />

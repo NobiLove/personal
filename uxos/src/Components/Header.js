@@ -28,7 +28,7 @@ function Header() {
                 <div className="overlay-content">
                   <Link onClick={onClickHandle} to="/Home">Home</Link>
                   <Link onClick={onClickHandle} to="/About">About</Link>
-                  <Link onClick={onClickHandle} to="/Feature">Feature</Link>
+                  <Link onClick={onClickHandle} to="/Features">Features</Link>
                   <Link onClick={onClickHandle} to="/Contact">Contact</Link>
                 </div>
               </div>

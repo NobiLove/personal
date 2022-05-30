@@ -1,8 +1,8 @@
 import React from 'react'
-import Client from '../components/Client';
-import Download from '../components/Download';
-import Slider from '../components/Slider';
-import Subscribe from '../components/Subscribe';
+import Client from '../Components/Client';
+import Download from '../Components/Download';
+import Slider from '../Components/Slider';
+import Subscribe from '../Components/Subscribe';
 
 function Home() {
   return (

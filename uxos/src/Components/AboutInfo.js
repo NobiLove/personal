@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+function AboutInfo() {
   return (
     <>
       <section className="about_section layout_padding">
@@ -37,5 +37,5 @@ function About() {
   );
 }
 
-export default About;
+export default AboutInfo;
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function ContactForm() {
   return (
     <>
       <section className="contact_section layout_padding">
@@ -48,4 +48,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactForm;
