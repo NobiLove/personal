@@ -8,6 +8,7 @@ import Computer from "./Pages/Computer";
 import Contact from "./Pages/Contact";
 import Laptop from "./Pages/Laptop";
 import Product from "./Pages/Product";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Laptop" element={<Laptop />} />
           <Route path="/Product" element={<Product />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

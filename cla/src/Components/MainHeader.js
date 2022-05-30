@@ -12,7 +12,7 @@ function MainHeader() {
                 <div className="full">
                   <div className="center-desk">
                     <div className="logo">
-                      <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                      <Link className="nav-link" to="/Home"><img src="images/logo.png" alt="#" /></Link>
                     </div>
                   </div>
                 </div>
