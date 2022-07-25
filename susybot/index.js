@@ -1,4 +1,3 @@
-//https://discord.com/api/oauth2/authorize?client_id=933553076227436614&permissions=8&scope=bot%20applications.commands
 const fs = require('fs');
 const Discord = require('discord.js');
 const Client = require('./client/Client');
@@ -97,4 +96,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login(config.token);
+client.login(process.env.token);
